@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="create_orders.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <a href="/"><span class="logo">DESIGN.PRO</span></a>
+        <ul id="header_hello">
+            <li>Добро пожаловть, логин <a href="#" id="exit">Выйти</a></li>
+        </ul>
+    </header>
+    <main>
+        <form action="" class="form autorez">
+            <h2>Создание заявки</h2>
+            <div id="inputes_wrap">
+                <label for="name_order"> Название</label> <br>
+                <input type="text" placeholder="Название заявки" class="inputes" id="name_order">
+
+                <label for="photo">Категория</label> <br>
+                <!-- <input type="file" placeholder="Загрузите изображение" class="inputes" id="photo"> -->
+                <textarea name="description" id="description" class="inputes" placeholder="Ваше описание.."></textarea>
+
+                <label for="pas">Категория</label> <br>
+                <!-- <input type="password" placeholder="Ваш пароль" class="inputes" id="pas"> -->
+                <p><select size="1" name="work" class="inputes">
+                    <option value='2D-дизайн'>3D-дизайн</option>
+                    <option selected value="2D-дизайн">2D-дизайн</option>
+                    <option value="Эскиз">Эскиз</option>
+                   </select>
+                </p>
+
+                <label for="photo">Категория</label> <br>
+                <input type="text" placeholder="Загрузите изображение" class="inputes" id="photo">
+
+                <input type="submit" class="btn_indefication" value="Изменить заявку">
+            </div>
+            
+        </form>
+    </main>
+</body>
+</html>
